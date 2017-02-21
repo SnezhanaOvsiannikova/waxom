@@ -1,0 +1,128 @@
+@media (min-width: 991px) and (max-width: 1200px) {
+	.footer .widget .wrapper div {
+		width: 45%;
+	}
+}
+@media (orientation: landscape) and (max-height: 500px){
+	.main .banner {
+		height: auto;
+		padding: 10rem 0;
+	}
+}
+@media (min-width: 500px) {
+	.main .benefits li {
+		width: auto;
+	}
+	.main .benefits li{
+		margin-bottom: 5rem;
+	}
+}
+@media (min-width: 500px) and (max-width: 767px) {
+	.projects article {
+		width: 65%; 
+	}
+	.projects .filters {
+		width: 60%; 
+	}
+	.projects .filters, .projects article {
+		margin: 0 auto 2rem;
+	}
+
+}
+/*tablets*/
+@media (min-width: 768px) {
+	.main .banner {
+		padding: 10rem 0;
+	}
+	.projects .filters li {
+		display: inline-block;
+	}
+	.navbar {
+		margin-left: 4.2rem; 
+	}
+	.navbar-header {
+		background: none;
+	}
+	.navbar-default .navbar-nav>li>a, 
+	.navbar-default .navbar-nav>li>span {
+		font: 1.4rem/1.6rem 'Montserrat', sans-serif;
+		padding: 1rem 1.5rem;
+	}
+	.navbar-default .navbar-nav>li>a:after,
+	.navbar-default .navbar-nav>li>a:after,
+	.navbar-default .navbar-nav>li>span:after {
+		background: none;
+	}
+	.main .benefits .number {
+		font: 4.8rem/5.2rem 'Montserrat', sans-serif;
+	}
+	.partners {
+		padding: 13.7rem 0 8.7rem;
+	}
+	.footer .waxom {
+		margin-bottom: 0;
+	}
+	.desctop-show {
+		display: block;
+	}
+	.mobile-show {
+		display: none;
+	}
+	.header .search-box {
+		margin-left: 0;
+	}
+	.content-popup .input-holder-popup {
+		margin-left: 4rem;
+		display: inline-block;
+		vertical-align: middle;
+		margin-top: 0;
+	}
+	.content-popup .input-holder-popup input[type="search"] {
+		margin-bottom: 0;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.projects article {
+		min-height: 350px;
+	}
+}
+/*desktop*/
+@media (min-width: 1024px) {
+	.text-slogan-heading {
+		font: 500 3.6rem/4rem 'Raleway', sans-serif;
+	}
+	.text-slogan-main {
+		font: 800 5.2rem/5.4rem 'Raleway', sans-serif;
+	}
+	.title .btn {
+		float: right;
+	}
+	.devices {
+		padding-top: 8rem;
+		padding-bottom: 0;
+		min-height: 700px;
+	}
+	.devices .list {
+		padding-left: 5rem;
+	}
+	.devices .img-holder {
+		display: block;
+	}
+	.partners .list-partners {
+		flex-flow: row nowrap;
+	}
+	.posts {
+		margin: 8.1rem 0 14.2rem;
+	}
+	.footer .footer-links .left-list {
+		float: left;
+	}
+	.footer .footer-links .right-list {
+		float: right;
+	}
+}
+@media (min-width: 1200px) {
+	.devices {
+		margin-bottom: -.4rem;
+	}
+}
